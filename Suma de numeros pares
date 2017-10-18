@@ -1,0 +1,20 @@
+//Programa que suma los numeros impares entre el 1 y 20
+//Autor: Braian Adair Maldonado Luna
+//Fecha: 18 de octubre de 2017
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int sum=0;
+	int count=1;
+	
+	while (count<10){
+	if((count %2)>2){	
+	sum=sum+count;
+	}
+	count++;
+	}
+cout<<sum<<endl;
+return 0;
+}
